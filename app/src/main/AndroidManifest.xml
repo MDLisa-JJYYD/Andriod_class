@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    package="com.example.studentmanager">
 
     <application
         android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="学生选课管理系统"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Android_class"
-        tools:targetApi="31">
-        <activity
-            android:name=".MainActivity"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        
+        <activity android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <activity android:name=".StudentListActivity" android:label="学生列表"/>
+        <activity android:name=".AddStudentActivity" android:label="学生信息录入"/>
+        <activity android:name=".CourseListActivity" android:label="课程列表"/>
+        <activity android:name=".AddCourseActivity" android:label="课程录入"/>
+        <activity android:name=".StudentDetailActivity" android:label="学生详情"/>
+        <activity android:name=".SelectCourseActivity" android:label="选课系统"/>
+        
     </application>
 
 </manifest>

@@ -1,0 +1,5 @@
+{
+  "name": "学生选课管理系统",
+  "description": "一个基于 Android 原生开发的学生选课管理系统，支持学生管理、课程管理、选课及成绩录入功能。",
+  "requestFramePermissions": []
+}

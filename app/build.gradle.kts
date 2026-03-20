@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.android_class"
+    namespace = "com.example.studentmanager"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.android_class"
+        applicationId = "com.example.studentmanager"
         minSdk = 21
         targetSdk = 34
         versionCode = 1

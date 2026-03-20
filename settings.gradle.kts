@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Android_class"
+rootProject.name = "studentmanager"
 include(":app")
  
